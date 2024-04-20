@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension Quakes {
+extension QuakesView {
 	@ToolbarContentBuilder
 	func toolbarContent() -> some ToolbarContent {
 		ToolbarItem(placement: .topBarLeading) {

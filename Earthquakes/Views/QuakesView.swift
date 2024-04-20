@@ -1,5 +1,5 @@
 //
-//  Quakes.swift
+//  QuakesView.swift
 //  Earthquakes
 //
 //  Created by Or Israeli on 19/04/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Quakes: View {
+struct QuakesView: View {
 	@AppStorage("lastUpdated")
 	var lastUpdated = Date.distantFuture.timeIntervalSince1970
     
@@ -36,7 +36,7 @@ struct Quakes: View {
     }
 }
 
-extension Quakes {
+extension QuakesView {
 	var title: String {
 		if selectMode.isActive || selection.isEmpty {
 			return "Earthquakes"
@@ -70,5 +70,5 @@ extension Quakes {
 }
 
 #Preview {
-    Quakes()
+    QuakesView()
 }
