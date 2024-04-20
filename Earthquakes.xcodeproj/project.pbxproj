@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		451CB1DF2BD26EBE00F04E28 /* EarthquakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CB1DE2BD26EBE00F04E28 /* EarthquakesApp.swift */; };
-		451CB1E12BD26EBE00F04E28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CB1E02BD26EBE00F04E28 /* ContentView.swift */; };
+		451CB1E12BD26EBE00F04E28 /* Quakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CB1E02BD26EBE00F04E28 /* Quakes.swift */; };
 		451CB1E32BD26EC000F04E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451CB1E22BD26EC000F04E28 /* Assets.xcassets */; };
 		451CB1E62BD26EC000F04E28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451CB1E52BD26EC000F04E28 /* Preview Assets.xcassets */; };
+		451CB1ED2BD26EF800F04E28 /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CB1EC2BD26EF800F04E28 /* Quake.swift */; };
+		451CB1EF2BD26F6100F04E28 /* Quake+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CB1EE2BD26F6100F04E28 /* Quake+Color.swift */; };
+		456176C52BD272320076C5A0 /* QuakeMagnitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456176C42BD272320076C5A0 /* QuakeMagnitude.swift */; };
+		456176C72BD2731D0076C5A0 /* QuakeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456176C62BD2731D0076C5A0 /* QuakeRow.swift */; };
+		456176CA2BD275A70076C5A0 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456176C92BD275A70076C5A0 /* DeleteButton.swift */; };
+		456176CC2BD276260076C5A0 /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456176CB2BD276260076C5A0 /* RefreshButton.swift */; };
+		456176CE2BD276870076C5A0 /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456176CD2BD276870076C5A0 /* SelectButton.swift */; };
+		456176D02BD277A40076C5A0 /* EditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456176CF2BD277A40076C5A0 /* EditButton.swift */; };
+		456176D22BD2787E0076C5A0 /* ToolbarStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456176D12BD2787E0076C5A0 /* ToolbarStatus.swift */; };
+		456176D42BD27A850076C5A0 /* Quakes+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456176D32BD27A850076C5A0 /* Quakes+Toolbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		451CB1DB2BD26EBE00F04E28 /* Earthquakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earthquakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		451CB1DE2BD26EBE00F04E28 /* EarthquakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesApp.swift; sourceTree = "<group>"; };
-		451CB1E02BD26EBE00F04E28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		451CB1E02BD26EBE00F04E28 /* Quakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quakes.swift; sourceTree = "<group>"; };
 		451CB1E22BD26EC000F04E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		451CB1E52BD26EC000F04E28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		451CB1EC2BD26EF800F04E28 /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
+		451CB1EE2BD26F6100F04E28 /* Quake+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quake+Color.swift"; sourceTree = "<group>"; };
+		456176C42BD272320076C5A0 /* QuakeMagnitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeMagnitude.swift; sourceTree = "<group>"; };
+		456176C62BD2731D0076C5A0 /* QuakeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeRow.swift; sourceTree = "<group>"; };
+		456176C92BD275A70076C5A0 /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
+		456176CB2BD276260076C5A0 /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
+		456176CD2BD276870076C5A0 /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
+		456176CF2BD277A40076C5A0 /* EditButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButton.swift; sourceTree = "<group>"; };
+		456176D12BD2787E0076C5A0 /* ToolbarStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStatus.swift; sourceTree = "<group>"; };
+		456176D32BD27A850076C5A0 /* Quakes+Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quakes+Toolbar.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				451CB1DE2BD26EBE00F04E28 /* EarthquakesApp.swift */,
-				451CB1E02BD26EBE00F04E28 /* ContentView.swift */,
+				451CB1F02BD2706300F04E28 /* Models */,
+				451CB1F12BD2708700F04E28 /* Views */,
 				451CB1E22BD26EC000F04E28 /* Assets.xcassets */,
 				451CB1E42BD26EC000F04E28 /* Preview Content */,
 			);
@@ -65,6 +86,39 @@
 				451CB1E52BD26EC000F04E28 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		451CB1F02BD2706300F04E28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				451CB1EC2BD26EF800F04E28 /* Quake.swift */,
+				451CB1EE2BD26F6100F04E28 /* Quake+Color.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		451CB1F12BD2708700F04E28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				451CB1E02BD26EBE00F04E28 /* Quakes.swift */,
+				456176C62BD2731D0076C5A0 /* QuakeRow.swift */,
+				456176C42BD272320076C5A0 /* QuakeMagnitude.swift */,
+				456176C82BD275910076C5A0 /* ToolbarContent */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		456176C82BD275910076C5A0 /* ToolbarContent */ = {
+			isa = PBXGroup;
+			children = (
+				456176D32BD27A850076C5A0 /* Quakes+Toolbar.swift */,
+				456176CD2BD276870076C5A0 /* SelectButton.swift */,
+				456176CF2BD277A40076C5A0 /* EditButton.swift */,
+				456176CB2BD276260076C5A0 /* RefreshButton.swift */,
+				456176D12BD2787E0076C5A0 /* ToolbarStatus.swift */,
+				456176C92BD275A70076C5A0 /* DeleteButton.swift */,
+			);
+			path = ToolbarContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +191,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				451CB1E12BD26EBE00F04E28 /* ContentView.swift in Sources */,
+				456176CE2BD276870076C5A0 /* SelectButton.swift in Sources */,
+				456176C52BD272320076C5A0 /* QuakeMagnitude.swift in Sources */,
+				456176CC2BD276260076C5A0 /* RefreshButton.swift in Sources */,
+				451CB1E12BD26EBE00F04E28 /* Quakes.swift in Sources */,
+				451CB1EF2BD26F6100F04E28 /* Quake+Color.swift in Sources */,
+				456176D02BD277A40076C5A0 /* EditButton.swift in Sources */,
+				456176D22BD2787E0076C5A0 /* ToolbarStatus.swift in Sources */,
+				451CB1ED2BD26EF800F04E28 /* Quake.swift in Sources */,
+				456176CA2BD275A70076C5A0 /* DeleteButton.swift in Sources */,
+				456176C72BD2731D0076C5A0 /* QuakeRow.swift in Sources */,
 				451CB1DF2BD26EBE00F04E28 /* EarthquakesApp.swift in Sources */,
+				456176D42BD27A850076C5A0 /* Quakes+Toolbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
