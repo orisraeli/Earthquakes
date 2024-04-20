@@ -25,6 +25,7 @@
 		456176D22BD2787E0076C5A0 /* ToolbarStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456176D12BD2787E0076C5A0 /* ToolbarStatus.swift */; };
 		456176D42BD27A850076C5A0 /* Quakes+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456176D32BD27A850076C5A0 /* Quakes+Toolbar.swift */; };
 		456176D62BD3CD640076C5A0 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456176D52BD3CD640076C5A0 /* QuakeError.swift */; };
+		456350F32BD400F3002F848C /* QuakeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456350F22BD400F3002F848C /* QuakeLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		456176D12BD2787E0076C5A0 /* ToolbarStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStatus.swift; sourceTree = "<group>"; };
 		456176D32BD27A850076C5A0 /* Quakes+Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quakes+Toolbar.swift"; sourceTree = "<group>"; };
 		456176D52BD3CD640076C5A0 /* QuakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
+		456350F22BD400F3002F848C /* QuakeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				451CB1EC2BD26EF800F04E28 /* Quake.swift */,
 				451CB1EE2BD26F6100F04E28 /* Quake+Color.swift */,
 				456176D52BD3CD640076C5A0 /* QuakeError.swift */,
+				456350F22BD400F3002F848C /* QuakeLocation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				451CB1ED2BD26EF800F04E28 /* Quake.swift in Sources */,
 				456176CA2BD275A70076C5A0 /* DeleteButton.swift in Sources */,
 				456176D62BD3CD640076C5A0 /* QuakeError.swift in Sources */,
+				456350F32BD400F3002F848C /* QuakeLocation.swift in Sources */,
 				456176C72BD2731D0076C5A0 /* QuakeRow.swift in Sources */,
 				451CB1DF2BD26EBE00F04E28 /* EarthquakesApp.swift in Sources */,
 				456176D42BD27A850076C5A0 /* Quakes+Toolbar.swift in Sources */,
