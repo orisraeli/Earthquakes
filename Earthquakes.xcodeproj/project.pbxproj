@@ -26,6 +26,7 @@
 		456176D42BD27A850076C5A0 /* Quakes+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456176D32BD27A850076C5A0 /* Quakes+Toolbar.swift */; };
 		456176D62BD3CD640076C5A0 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456176D52BD3CD640076C5A0 /* QuakeError.swift */; };
 		456350F32BD400F3002F848C /* QuakeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456350F22BD400F3002F848C /* QuakeLocation.swift */; };
+		45EB7B542BD5374F009506C1 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB7B532BD5374F009506C1 /* HTTPDataDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		456176D32BD27A850076C5A0 /* Quakes+Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quakes+Toolbar.swift"; sourceTree = "<group>"; };
 		456176D52BD3CD640076C5A0 /* QuakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
 		456350F22BD400F3002F848C /* QuakeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeLocation.swift; sourceTree = "<group>"; };
+		45EB7B532BD5374F009506C1 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				451CB1EE2BD26F6100F04E28 /* Quake+Color.swift */,
 				456176D52BD3CD640076C5A0 /* QuakeError.swift */,
 				456350F22BD400F3002F848C /* QuakeLocation.swift */,
+				45EB7B552BD53756009506C1 /* Network */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,6 +164,14 @@
 				456176C92BD275A70076C5A0 /* DeleteButton.swift */,
 			);
 			path = ToolbarContent;
+			sourceTree = "<group>";
+		};
+		45EB7B552BD53756009506C1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				45EB7B532BD5374F009506C1 /* HTTPDataDownloader.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 				456176CA2BD275A70076C5A0 /* DeleteButton.swift in Sources */,
 				456176D62BD3CD640076C5A0 /* QuakeError.swift in Sources */,
 				456350F32BD400F3002F848C /* QuakeLocation.swift in Sources */,
+				45EB7B542BD5374F009506C1 /* HTTPDataDownloader.swift in Sources */,
 				456176C72BD2731D0076C5A0 /* QuakeRow.swift in Sources */,
 				451CB1DF2BD26EBE00F04E28 /* EarthquakesApp.swift in Sources */,
 				456176D42BD27A850076C5A0 /* Quakes+Toolbar.swift in Sources */,
