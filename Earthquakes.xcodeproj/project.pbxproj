@@ -28,6 +28,7 @@
 		456350F52BD56E7A002F848C /* QuakeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456350F42BD56E7A002F848C /* QuakeClient.swift */; };
 		456350F62BD570A2002F848C /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45067AE42BD3D23C00B85540 /* TestData.swift */; };
 		456350F82BD570D1002F848C /* TestDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456350F72BD570D1002F848C /* TestDownloader.swift */; };
+		456350FA2BD596C9002F848C /* QuakesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456350F92BD596C9002F848C /* QuakesProvider.swift */; };
 		45EB7B542BD5374F009506C1 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB7B532BD5374F009506C1 /* HTTPDataDownloader.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		456350F22BD400F3002F848C /* QuakeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeLocation.swift; sourceTree = "<group>"; };
 		456350F42BD56E7A002F848C /* QuakeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeClient.swift; sourceTree = "<group>"; };
 		456350F72BD570D1002F848C /* TestDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDownloader.swift; sourceTree = "<group>"; };
+		456350F92BD596C9002F848C /* QuakesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakesProvider.swift; sourceTree = "<group>"; };
 		45EB7B532BD5374F009506C1 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				45EB7B532BD5374F009506C1 /* HTTPDataDownloader.swift */,
+				456350F92BD596C9002F848C /* QuakesProvider.swift */,
 				456350F42BD56E7A002F848C /* QuakeClient.swift */,
 			);
 			path = Network;
@@ -296,6 +299,7 @@
 				451CB1EF2BD26F6100F04E28 /* Quake+Color.swift in Sources */,
 				456176D02BD277A40076C5A0 /* EditButton.swift in Sources */,
 				456176D22BD2787E0076C5A0 /* ToolbarStatus.swift in Sources */,
+				456350FA2BD596C9002F848C /* QuakesProvider.swift in Sources */,
 				451CB1ED2BD26EF800F04E28 /* Quake.swift in Sources */,
 				456350F62BD570A2002F848C /* TestData.swift in Sources */,
 				456176CA2BD275A70076C5A0 /* DeleteButton.swift in Sources */,
