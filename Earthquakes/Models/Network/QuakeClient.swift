@@ -15,11 +15,14 @@ class QuakeClient {
 			return decoded.quakes
 		}
 	}
+	
 	private lazy var decoder: JSONDecoder = {
-		let aDecoder = JSONDecoder()
-		aDecoder.dateDecodingStrategy = .millisecondsSince1970
-		return aDecoder
+		let coder = JSONDecoder()
+		coder.dateDecodingStrategy = .millisecondsSince1970
+		return coder
 	}()
+	
+	private let quakeCache: NSCache<NSString, CacheEntryObject> = NSCache()
 	
 	private let feedURL = URL(string: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson")!
 	
