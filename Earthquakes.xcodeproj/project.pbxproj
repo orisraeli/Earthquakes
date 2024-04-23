@@ -33,6 +33,7 @@
 		456350FE2BD7FBF7002F848C /* NSCahse+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456350FD2BD7FBF7002F848C /* NSCahse+Subscript.swift */; };
 		456351002BD80ACC002F848C /* Quake+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456350FF2BD80ACC002F848C /* Quake+Preview.swift */; };
 		456351022BD80B60002F848C /* QuakeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456351012BD80B60002F848C /* QuakeDetail.swift */; };
+		456351042BD82294002F848C /* QuakeDetailMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456351032BD82294002F848C /* QuakeDetailMap.swift */; };
 		45EB7B542BD5374F009506C1 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EB7B532BD5374F009506C1 /* HTTPDataDownloader.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		456350FD2BD7FBF7002F848C /* NSCahse+Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSCahse+Subscript.swift"; sourceTree = "<group>"; };
 		456350FF2BD80ACC002F848C /* Quake+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quake+Preview.swift"; sourceTree = "<group>"; };
 		456351012BD80B60002F848C /* QuakeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeDetail.swift; sourceTree = "<group>"; };
+		456351032BD82294002F848C /* QuakeDetailMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeDetailMap.swift; sourceTree = "<group>"; };
 		45EB7B532BD5374F009506C1 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				456351012BD80B60002F848C /* QuakeDetail.swift */,
+				456351032BD82294002F848C /* QuakeDetailMap.swift */,
 				451CB1E02BD26EBE00F04E28 /* QuakesView.swift */,
 				456176C62BD2731D0076C5A0 /* QuakeRow.swift */,
 				456176C42BD272320076C5A0 /* QuakeMagnitude.swift */,
@@ -308,6 +311,7 @@
 				456176CC2BD276260076C5A0 /* RefreshButton.swift in Sources */,
 				45067AE72BD3F74000B85540 /* GeoJSON.swift in Sources */,
 				451CB1E12BD26EBE00F04E28 /* QuakesView.swift in Sources */,
+				456351042BD82294002F848C /* QuakeDetailMap.swift in Sources */,
 				451CB1EF2BD26F6100F04E28 /* Quake+Color.swift in Sources */,
 				456176D02BD277A40076C5A0 /* EditButton.swift in Sources */,
 				456350FC2BD7FB66002F848C /* CacheEntryObject.swift in Sources */,
