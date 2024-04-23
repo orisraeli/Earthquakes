@@ -14,6 +14,7 @@ struct Quake {
 	let code: String
 	let detail: URL
 	let tsunami: Int
+	var location: QuakeLocation?
 }
 
 //MARK: - Identifiable conformance
